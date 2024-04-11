@@ -35,18 +35,13 @@ After obtaining the list of new companies, run the following command to scrape a
 python scraper.py
 ```
 
-
-then run 
-```bash
-python scraper.py
-```
-then run
+then run g2_filter.py to filter out companies already listed on g2 
 ```bash
 python g2_filter.py
 ```
-to filter companies that are already on g2
 
-then run
+
+then main.py to see of the companies have any B2B offerings that could be added to g2 and make genrate a csv file
 ```bash
 python main.py
 ```
