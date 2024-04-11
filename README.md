@@ -5,9 +5,10 @@
 
 ## ![Image Alt text](/architecture.png "Architecture")
 
-## Overview
+## Overview of PROBLEM STATEMENT 1
+we aim to ensure that all B2B software products are listed on  [G2](https://www.g2.com/)  as soon as they become generally available. While this practice is widely adopted in North America, Asia, and some other regions, we recognize that there are areas where G2's visibility might be limited, leading companies to overlook listing their products with G2.
+To address this challenge, we have build a product that helps to proactively identifying these overlooked products so that we can reach out to companies to encourage them to list their offerings on G2.
 
-This project aims to find B2B software for [G2](https://www.g2.com/) 
 
 ## Requirements
 
