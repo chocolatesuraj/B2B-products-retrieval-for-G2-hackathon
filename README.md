@@ -32,6 +32,7 @@ After obtaining the list of new companies, run the following command to scrape a
 
 ```bash
 python scraper.py
+```
 
 REQUIREMENTS:
 Python version 3.11.3 or higher
