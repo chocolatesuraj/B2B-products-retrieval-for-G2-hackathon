@@ -1,0 +1,6 @@
+beautifulsoup4==4.12.3
+openai==1.17.0
+pandas==2.2.2
+protobuf==5.26.1
+Requests==2.31.0
+selenium==4.19.0
