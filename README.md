@@ -5,6 +5,10 @@
 
 ## ![Image Alt text](/architecture.png "Architecture")
 
+## Overview
+
+This project aims to find B2B software for [G2](https://www.g2.com/) 
+
 ## Requirements
 
 - Python version 3.11.3 or higher
@@ -51,14 +55,18 @@ https://internshala.com/internships/matching-preferences/
 https://endlessfrontierlabs.com/startups/
 
 then run 
+```bash
 python scraper.py
-
-then run 
-pyhton g2_filter.py 
+```
+then run
+```bash
+pyhton g2_filter.py
+```
 to filter companies that are already on g2
 
-then run 
+then run
+```bash
 python main.py
-
+```
 
 
