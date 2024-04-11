@@ -38,21 +38,6 @@ After obtaining the list of new companies, run the following command to scrape a
 python scraper.py
 ```
 
-REQUIREMENTS:
-Python version 3.11.3 or higher
-google cloud account with 
-  Generative Language API
-  Custom Search API
-search engine id from googles programable seach engine 
-pip install -r requirements.txt
-
-STEPS TO RUN:
-get list of new companies by either scraping a website or directly downloading csv from website 
-https://www.techstars.com/portfolio
-https://data.gov.hk/en-data/dataset/hk-cr-crdata-list-newly-registered-companies-2324
-https://10000startups.com/our-startups
-https://internshala.com/internships/matching-preferences/
-https://endlessfrontierlabs.com/startups/
 
 then run 
 ```bash
@@ -60,7 +45,7 @@ python scraper.py
 ```
 then run
 ```bash
-pyhton g2_filter.py
+python g2_filter.py
 ```
 to filter companies that are already on g2
 
