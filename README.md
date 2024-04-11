@@ -29,8 +29,8 @@ You can get a list of new companies by either scraping the websites listed below
 
 ### 2. Run Scraper
 
-After obtaining the list of new companies, run the following command to scrape additional details:
-
+we ran the below sript to scrape [Techstars Portfolio](https://www.techstars.com/portfolio) 
+we have scraped it and found the companies  . it is available in  data folder and you can directly use that 
 ```bash
 python scraper.py
 ```
