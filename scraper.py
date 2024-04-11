@@ -42,7 +42,7 @@ for element in elements:
     try:
         startup_url = element.find_element(By.CSS_SELECTOR, 'a.jss1089').get_attribute('href')
     except:
-        print(startup_name)
+        print(startup_name) ##list out the startup names that don't have a URL
         startup_url = ""  # Assign an empty string if URL element is not found
         
         
@@ -57,6 +57,5 @@ all_startup_locations = [i.text for i in  all_startup_locations]
 #Close the webdriver
 driver.quit()
 
-techstars_startup_df.to_csv("techstars.csv", index=False)
 techstars_startup_df['location'] = all_startup_locations[::2] #extracting the locations out of the selected content
 techstars_startup_df.to_csv("techstars_scraped.csv", index=False)
