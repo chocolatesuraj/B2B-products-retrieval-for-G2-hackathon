@@ -30,8 +30,8 @@ You can get a list of new companies by either scraping the websites listed below
 ### 2. Run Scraper
 
 we ran the below sript to scrape [Techstars Portfolio](https://www.techstars.com/portfolio) 
-we have scraped it and found the companies  . it is available in  data folder and you can directly use that 
-make sure you change to path in the code to the path on your local machine
+we have scraped it and found the companies  . it is available in  data folder and you can directly use that.
+Make sure you change to path in the code to the path on your local machine
 ```bash
 python scraper.py
 ```
