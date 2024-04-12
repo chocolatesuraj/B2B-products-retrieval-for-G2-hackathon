@@ -1,5 +1,5 @@
-API_KEY = 'AIzaSyAPWp4X8lmphuaMY1eHsnqFw5DDqu1soO0'
-SEARCH_ENGINE_ID = 'f4658cbb644034be9'
+```API_KEY = your api key
+SEARCH_ENGINE_ID = your seach engine id```
 url = 'https://www.googleapis.com/customsearch/v1'
 
 
